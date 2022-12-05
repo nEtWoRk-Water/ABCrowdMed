@@ -10,3 +10,8 @@ server. Our proposed scheme's security is been proved selectively secure under t
 We also evaluate ABCrowdMed's performance and compare it with the most related scheme. The evaluation results show that our scheme achieves the lowest 
 computation costs with low complexity compared with other state-of-the-art model placement methods, and also show that our scheme is suitable for computing 
 resource-constrained environments.
+#Implementation
+The hardware environment is Intel(R) Core(TM) i5-6600 CPU @ 3.30GHz (4 CPUs), 8GB RAM, and the software environment is JDK 17.0.4.1 and IntelliJ IDEA Community Edition 2022.2.3. For portability, we chose the JPBC framework \cite{2011jPBC} by De Caro and Iovino in 2011, a Java library that ported the Pairing-Based Cryptography (PBC) library \cite{PBC} (instead of calling PBC written in C via JNI).
+#Acknowledgments
+This work was supported by the Foundation of Science and Technology On Communication Security 
+Laboratory of China(61421030108022110), the Open Fund of the State Key Laboratory of Integrated Services Networks, Xidian University, No.ISN23-23, the National Natural Science Foundation of China (U2001205, 61802241, 61802242), and the Fundamental Research Funds for the Central Universities (GK202007031).
