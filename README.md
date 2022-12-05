@@ -17,7 +17,7 @@ computation costs with low complexity compared with other state-of-the-art model
 resource-constrained environments.
 
 
-## Implementation
+## Implementations
 The hardware environment is Intel(R) Core(TM) i5-6600 CPU @ 3.30GHz (4 CPUs), 8GB RAM, and the software environment is JDK 17.0.4.1 and IntelliJ IDEA Community Edition 2022.2.3. For portability, we chose the JPBC framework by De Caro and Iovino in 2011, a Java library that ported the Pairing-Based Cryptography (PBC) library (instead of calling PBC written in C via JNI).
 
 
